@@ -30,6 +30,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'gun0912.ted:tedpermission:1.0.3'
-    compile project(':library')
+    compile 'com.github.itsnothingg:EasyScreenRecorder:1.0.0'
     testCompile 'junit:junit:4.12'
 }
