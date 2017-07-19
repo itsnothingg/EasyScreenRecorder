@@ -11,7 +11,6 @@ First Add jitpack.io on yout root `build.gradle`:
 ```gradle
 allprojects {
     repositories {
-        maven { url 'http://raw.github.com/saki4510t/libcommon/master/repository/' }
         maven { url 'https://jitpack.io' }
         jcenter()
     }
