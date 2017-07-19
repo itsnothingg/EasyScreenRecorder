@@ -33,6 +33,7 @@ Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO
 First thing you'll have to do is to grant media projection permission by using the following code
 ```java
 MediaProjectionManager mMediaProjectionManager = (MediaProjectionManager) getSystemService(Context.MEDIA_PROJECTION_SERVICE);
+startActivityForResult(mMediaProjectionManager.createScreenCaptureIntent(), REQUEST_CODE);
 ```
 this will call permission dialog, and return result on `onActivityResult`
 
